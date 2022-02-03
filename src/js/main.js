@@ -1,5 +1,4 @@
 
-
 (function ($) {
 	
 	"use strict";
@@ -20,3 +19,13 @@
 	
 })(jQuery);
 
+
+//  Card code
+
+
+(function () {
+	$(".size").on('click', function () {
+		$(this).toggleClass('focus').siblings().removeClass('focus');
+	})
+}
+)()

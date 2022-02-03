@@ -8333,3 +8333,134 @@ a[data-toggle="collapse"] {
       max-width: 1200px;
       margin: 8rem auto;
     }
+
+    /* body{
+      min-width: 640px !important
+    } */
+
+    /* Card code /////////////////////////////////////////////////////////////////*/
+
+    @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+.container  {
+  background: #e0c9cb;
+  font-family: "Lato", sans-serif, sans-serif;
+  text-transform: uppercase;
+  margin: 3rem auto !important;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 520px;
+  height: 350px;
+  background: #f5f5f5;
+  box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
+  border-radius: 10px;
+}
+
+.container p {
+  font-size: 0.8em;
+  color: #ba7e7e;
+  letter-spacing: 1px;
+}
+
+.container h1 {
+  font-size: 1.2em;
+  color: #4e4e4e;
+  margin-top: -5px;
+}
+
+.container h2 {
+  color: #c3a1a0;
+  margin-top: -5px;
+}
+
+.container img {
+  width: 290px;
+  margin-top: 47px;
+}
+
+
+.container .product {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10%;
+  left: 60%;
+}
+
+.container .desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: #4e4e4e;
+  font-size: 0.80em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+.container button {
+  background: #cda9ac;
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+.container button:hover {
+  background: #ba7e7e;
+  transition: all 0.4s ease-in-out;
+}
+
+.container .add {
+  width: 67%;
+}
+
+.container .like {
+  width: 22%;
+}
+
+.container .sizes {
+  display: grid;
+  color: #d9aab7;
+  grid-template-columns: repeat(auto-fill, 30px);
+  width: 60%;
+  grid-gap: 4px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.container .sizes:hover {
+  cursor: pointer;
+}
+
+.container .pick {
+  margin-top: 11px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.container .size {
+  padding: 9px;
+  border: 1px solid #e0c9cb;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.container .size:hover {
+  background: #ba7e7e;
+  color: #f5f5f5;
+  transition: all 0.4s ease-in-out;
+}
+
+.container .focus {
+  background: #ba7e7e;
+  color: #f5f5f5;
+}
