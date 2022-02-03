@@ -8464,3 +8464,120 @@ a[data-toggle="collapse"] {
   background: #ba7e7e;
   color: #f5f5f5;
 }
+
+
+/* Contact Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+        
+        .containerr {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            /* background: #11a5df2b; */
+            width: 80vw;
+            padding: 15px;
+			max-width: 1200px;
+        }
+        
+        .containerr h2 {
+            color: #403333;
+			margin-bottom: 4rem;
+        }
+        
+        .containerr .contact-info {
+            display: flex;
+            width: 90%;
+        }
+        
+        .containerr form {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            box-shadow: 0 0 15px grey;
+            text-align: center;
+            color: gray;
+            border-radius: 5px;
+            padding: 7px;
+
+        }
+        
+        .containerr .details {
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            background: #0069f7;
+            color: white;
+            border-radius: 5px;
+            padding: 7px;
+            box-shadow: 0 0 15px rgb(46, 119, 196);
+
+        }
+        .containerr .contact-items{
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            /* margin-left: 5px; */
+        }
+        .containerr .contact-items-wrapper{
+            padding: 25px;
+        }
+        
+        .containerr .details h3 {
+            text-align: center;
+        }
+        
+        .containerr .details p {
+            font-size: 15px;
+            margin-left: 15px;
+        }
+
+        .containerr .details p a{
+        color: white;
+        }
+        .containerr .details p a:hover{
+        color: rgb(160, 154, 154);
+        }
+
+        .containerr .material-icons{
+            width: 12px;
+            margin: 5px;
+        }
+        
+        .containerr input {
+            margin: 5px 15px;
+            height: 25px;
+        }
+        
+        .containerr textarea {
+            height: 150px;
+            margin: 5px 15px;
+        }
+        
+        .containerr button {
+            margin: 5px 15px;
+            width: 80px;
+            background:	tomato;
+            padding: 3px 10px;
+            border: 0;
+            border-radius: 5px;
+            color: white;
+            font-size: 15px;
+        }
+        
+        @media screen and (max-width:780px) {
+            .containerr .contact-info {
+            flex-direction: column;
+            width: 90%;
+        }
+        .containerr form{
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .containerr .details{
+            width: 100%;
+        }
+        }
