@@ -5349,7 +5349,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #007bff !important; }
+  background-color: #e4d6d6 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -8326,3 +8326,10 @@ a[data-toggle="collapse"] {
     background: #3e64ff !important;
     border-color: #3e64ff !important; }
 
+
+    /* Personal */
+
+    .donation-option{
+      max-width: 1200px;
+      margin: 8rem auto;
+    }
