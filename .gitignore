@@ -1,7 +1,10 @@
 # Node Modules
 /node_modules
 
-
+# .env keys
+.env
+.env-local
+.env-template
 
 #Parcel DF
 /dist
