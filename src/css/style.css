@@ -10917,7 +10917,7 @@ a[data-toggle="collapse"] {
       min-width: 640px !important
     } */
 
-/* Card code /////////////////////////////////////////////////////////////////*/
+/* Card code ///////////////////////////////////////*/
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
@@ -10957,9 +10957,12 @@ a[data-toggle="collapse"] {
     margin-top: -5px;
 }
 
+
 .container img {
-    width: 290px;
+    max-width: 290px;
+    max-height: 250px;
     margin-top: 47px;
+    margin-bottom: 1.5rem;
 }
 
 .container .product {

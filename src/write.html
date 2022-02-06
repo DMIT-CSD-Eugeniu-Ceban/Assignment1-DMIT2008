@@ -14,6 +14,7 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.js"></script>
 	<script type="module" src="js/bootstrap.min.js"></script>
+	<script type="module" src="js/write.js"></script>
 	<script type="module" src="js/main.js"></script>
 </head>
 
@@ -91,14 +92,14 @@
 			<h2 class="mb-4">Here will be the cards for writing</h2>
 
 			<form id="cardForm" class="container">
-				<div class="images">
-					<img src="./images/Shoses/Nike2.jpg" />
+				<div class="image">
+					<img src="./images/addImage.jpg" />
 				</div>
 				<div class="sizeFlex">
 					<p class="pick">choose size</p>
 					<div class="addImage">
-						<label for="rentalImage">Select image </label>
-						<input type="file" id="rentalImage" style="display:none" class="select-file"
+						<label for="productImage">Select image </label>
+						<input type="file" id="productImage" style="display:none" class="select-file"
 							accept=".jpg, .png, .jpeg, .webp">
 					</div>
 				</div>
@@ -115,31 +116,31 @@
 				<div class="product">
 					<div class="type">
 						<label for="shoesType">Type of Shoes</label>
-						<input id="shoesType" type="text" placeholder="Shoes type">
+						<input id="shoesType" type="text" placeholder="Shoes type" required>
 					</div>
 
 					<div class="name">
 						<label for="shoesName">Shoes Model or Name</label>
-						<input id="shoesName" type="text" placeholder="ex. Nike F1 . . .">
+						<input id="shoesName" type="text" placeholder="ex. Nike F1 . . ." required>
 					</div>
 
 					<div class="price">
 						<label for="shoesPrice">Price $ </label>
-						<input id="shoesPrice" type="text" placeholder="Amount">
+						<input id="shoesPrice" type="text" placeholder="Amount" required>
 					</div>
 
 					<div class="description">
 						<label for="message">Leave Us A Message</label>
 						<textarea maxlength="100" name="message" id="message" cols="31" rows="3"
-							placeholder="Product description . . . ."></textarea>
+							placeholder="Product description . . . ." required></textarea>
 					</div>
 
 					<div class="buttons">
-						<button class="add">Add Product</button>
+						<button class="add" type="submit">Add Product</button>
 						<button class="like"><span>♥</span></button>
 					</div>
 				</div>
-
+			</form>
 		</div>
 	</div>
 
