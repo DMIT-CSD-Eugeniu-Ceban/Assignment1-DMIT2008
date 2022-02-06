@@ -10906,6 +10906,13 @@ a[data-toggle="collapse"] {
     margin: 8rem auto;
 }
 
+/* Carousel style */
+
+.carousel-inner {
+    width: 70% !important;
+    margin: 0 auto;
+}
+
 /* body{
       min-width: 640px !important
     } */
@@ -10925,11 +10932,12 @@ a[data-toggle="collapse"] {
     position: relative;
     margin: auto;
     overflow: hidden;
-    width: 520px;
-    height: 350px;
+    width: 600px;
+    height: 400px;
     background: #f5f5f5;
     box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
     border-radius: 10px;
+    min-width: 600px;
 }
 
 .container p {
@@ -10956,10 +10964,10 @@ a[data-toggle="collapse"] {
 
 .container .product {
     position: absolute;
-    width: 40%;
+    width: 47%;
     height: 100%;
-    top: 10%;
-    left: 60%;
+    top: 5%;
+    left: 53%;
 }
 
 .container .desc {
@@ -11148,4 +11156,43 @@ a[data-toggle="collapse"] {
     .containerr .details {
         width: 100%;
     }
+}
+
+/* Add image button style */
+.addImage {
+    border: 1px solid #cda9ac;
+    width: 18.8%;
+    border-radius: 3px;
+    margin-left: 3.8rem;
+    color: tomato;
+    background-color: #dfdce9;
+}
+.addImage label {
+    margin-bottom: unset;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.sizeFlex {
+    display: flex;
+}
+
+#shoesType::placeholder, #shoesName::placeholder {
+    color: #ffb09b;
+}
+
+.type label {
+    margin-right: 1.1rem;
+}
+
+.type input, .name input{
+    width: 15rem;
+}
+
+.product .type label, .product .name label{
+    margin-bottom: unset;
+}
+
+.product .name {
+    padding-top: 0.5rem;
 }
