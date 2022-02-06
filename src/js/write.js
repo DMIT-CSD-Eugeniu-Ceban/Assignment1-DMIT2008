@@ -34,7 +34,7 @@ async function uploadNewProduct() {
 
     const uploadResult = await uploadBytes(imageRef, file);
     const urlPath = await getDownloadURL(imageRef)
-    const storagePath = uploadResult.metadata.fullPath;
+    const imagePath = uploadResult.metadata.fullPath;
 
     // firebase unique key
     const itemRef = await push(dataRef)
@@ -43,12 +43,12 @@ async function uploadNewProduct() {
         key: itemRef.key,
         sku: `ecsp${itemRef.key}`,
         urlPath,
-        storagePath,
+        imagePath,
         type,
         name,
         message,
-        price  
-        /* size:[8, 8.5, 9 ,9.5] */
+        price,
+        /* size: [5, 6, 7, 8, 9, 10, 11, 12] */
     })
 
 }
