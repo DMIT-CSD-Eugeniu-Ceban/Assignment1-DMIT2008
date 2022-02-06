@@ -10957,7 +10957,6 @@ a[data-toggle="collapse"] {
     margin-top: -5px;
 }
 
-
 .container img {
     max-width: 290px;
     max-height: 250px;
@@ -11218,4 +11217,13 @@ textarea {
 
 .product .description textarea {
     margin-bottom: 1rem;
+}
+
+/* Read card button style*/
+.container #edit {
+    width: 40%;
+    margin-right: 1.5rem;
+}
+.container #delete{
+    width: 40%;
 }
