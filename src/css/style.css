@@ -10933,7 +10933,7 @@ a[data-toggle="collapse"] {
     margin: auto;
     overflow: hidden;
     width: 600px;
-    height: 400px;
+    height: 423px;
     background: #f5f5f5;
     box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
     border-radius: 10px;
@@ -10967,7 +10967,7 @@ a[data-toggle="collapse"] {
     width: 47%;
     height: 100%;
     top: 5%;
-    left: 53%;
+    left: 54%;
 }
 
 .container .desc {
@@ -11163,7 +11163,7 @@ a[data-toggle="collapse"] {
     border: 1px solid #cda9ac;
     width: 18.8%;
     border-radius: 3px;
-    margin-left: 3.8rem;
+    margin-left: 4.9rem;
     color: tomato;
     background-color: #dfdce9;
 }
@@ -11177,7 +11177,9 @@ a[data-toggle="collapse"] {
     display: flex;
 }
 
-#shoesType::placeholder, #shoesName::placeholder {
+#shoesType::placeholder,
+#shoesName::placeholder,
+#shoesPrice::placeholder {
     color: #ffb09b;
 }
 
@@ -11185,14 +11187,32 @@ a[data-toggle="collapse"] {
     margin-right: 1.1rem;
 }
 
-.type input, .name input{
+.type input,
+.name input {
     width: 15rem;
 }
 
-.product .type label, .product .name label{
+.product .type label,
+.product .name label,
+.product .price label,
+progress .description label {
     margin-bottom: unset;
 }
 
-.product .name {
+.product .name,
+.product .price,
+.product .description {
     padding-top: 0.5rem;
+}
+
+.product .price label {
+    margin-right: 5rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.product .description textarea {
+    margin-bottom: 1rem;
 }
