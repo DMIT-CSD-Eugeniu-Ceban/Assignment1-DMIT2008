@@ -7,14 +7,14 @@ async function pageInit() {
     const productSnapShot = await get(productRef)
     const data = productSnapShot.val();
 
-    // document.body.append(productCard())
-    document.querySelector("div#content").append(productCard())
 
-    /* Object.values(data).map(rental => {
-        const card = rentalCard(rental)
-        document.body.append(card)
+    Object.values(data).map(product => {
+        const card = productCard(product)
+        /* document.body.append(card) */
+        /* document.querySelector("div#content").append(productCard()) */
+        document.querySelector("div#content").append(card)
         return card
-    }) */
+    })
 
 }
 

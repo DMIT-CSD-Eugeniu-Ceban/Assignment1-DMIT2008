@@ -4,7 +4,7 @@ import { db, storage } from "./libs/firebase/firebaseConfig";
 
 
 
-document.querySelector("#cardForm").addEventListener("change", onImageSelected);
+document.querySelector("#productImage").addEventListener("change", onImageSelected);
 document.forms["cardForm"].addEventListener("submit", onAddProduct);
 
 
