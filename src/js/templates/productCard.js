@@ -1,8 +1,8 @@
 function productCard(data) {
-    const template = `
+	const template = `
         <form id="cardForm" class="container">
 				<div class="images">
-					<img src="./images/Shoses/Nike2.jpg" />
+					<img src="static/images/Shoses/Nike2.jpg" />
 				</div>
 				<div class="sizeFlex">
 					<p class="pick">choose size</p>
@@ -38,8 +38,8 @@ function productCard(data) {
 				</div>
 			</form>
     `
-    const element = document.createRange().createContextualFragment(template).children[0]
-    return element
+	const element = document.createRange().createContextualFragment(template).children[0]
+	return element
 }
 
-export { productCard}
+export { productCard }

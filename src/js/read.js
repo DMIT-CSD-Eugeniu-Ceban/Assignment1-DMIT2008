@@ -6,8 +6,9 @@ async function pageInit() {
     const productRef = dataRef(db, 'products/');
     const productSnapShot = await get(productRef)
     const data = productSnapShot.val();
-    
-    document.body.append(productCard())
+
+    // document.body.append(productCard())
+    document.querySelector("div#content").append(productCard())
 
     /* Object.values(data).map(rental => {
         const card = rentalCard(rental)
