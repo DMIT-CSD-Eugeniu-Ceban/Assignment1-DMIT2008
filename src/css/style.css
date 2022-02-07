@@ -11224,6 +11224,14 @@ textarea {
     width: 40%;
     margin-right: 1.5rem;
 }
-.container #delete{
+.container #delete {
     width: 40%;
+}
+
+body #content #show-cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2500px;
+    min-width: 555px;
+    justify-content: center;
 }

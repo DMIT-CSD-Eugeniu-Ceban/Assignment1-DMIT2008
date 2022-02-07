@@ -12,7 +12,7 @@ async function pageInit() {
         const card = productCard(product)
         /* document.body.append(card) */
         /* document.querySelector("div#content").append(productCard()) */
-        document.querySelector("div#content").append(card)
+        document.querySelector("div#show-cards").append(card)
         return card
     })
 
