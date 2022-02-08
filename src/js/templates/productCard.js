@@ -6,11 +6,6 @@ function productCard({ key, urlPath, type, name, message, price }) {
 				</div>
 				<div class="sizeFlex">
 					<p class="pick">choose size</p>
-					<div class="addImage">
-						<label for="rentalImage">Select image </label>
-						<input type="file" id="rentalImage" style="display:none" class="select-file"
-							accept=".jpg, .png, .jpeg, .webp">
-					</div>
 				</div>
 				<div class="sizes">
 					<div class="size">5</div>
