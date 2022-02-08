@@ -33,25 +33,24 @@ function setFieldValues({ urlPath, type, name, message, price }) {
 
 
 async function updateProductData() {
-    const file = cardForm.elements['productImage'].files;
     const type = cardForm.elements['shoesType'].value.trim();
     const name = cardForm.elements['shoesName'].value.trim();
     const price = cardForm.elements['shoesPrice'].value.trim();
     const message = cardForm.elements['message'].value.trim();
 
 
+    const file = cardForm.elements['productImage'].files;
     if (file.lenght !== 0) {
         const imageRef = storageRef(storage, `product-images/${file.name}`)
         const uploadResult = await uploadBytes(imageRef, file);
         const imagePath = uploadResult.metadata.fullPath;
-        console.log(imagePath)
-    } 
-    const urlPath = await getDownloadURL(imageRef);
+        const urlPath = await getDownloadURL(imageRef);
+    }
 
 
     const key = sessionStorage.getItem('key');
     const dataRef = databaseRef(db, `products/${key}`)
-    
+
     set(dataRef, {
         key,
         urlPath,
