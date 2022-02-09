@@ -8,7 +8,7 @@ document.querySelector("#productImage").addEventListener("change", onImageSelect
 document.forms["cardForm"].addEventListener("submit", onAddProduct);
 
 
-function onAddProduct(e) {
+function onAddProduct(e) { 
     e.preventDefault();
     uploadNewProduct();
 }
