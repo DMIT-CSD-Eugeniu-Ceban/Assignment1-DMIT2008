@@ -26,7 +26,6 @@ function onUpdateProduct(e) {
 
 function onImageSelected(e) {
     let file = e.target.files[0];
-    console.log(file)
     document.querySelector(".image img").src = URL.createObjectURL(file);
 }
 
@@ -55,7 +54,6 @@ async function updateProductData() {
         const uploadResult = await uploadBytes(imageRef, file);
         imagePath = uploadResult.metadata.fullPath;
         urlPath = await getDownloadURL(imageRef);
-        console.log("Test");
     }
     
 
