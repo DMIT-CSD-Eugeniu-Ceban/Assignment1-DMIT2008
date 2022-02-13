@@ -1,5 +1,5 @@
 import { ref as storageRef, uploadBytes, getDownloadURL } from "firebase/storage";
-import { ref as databaseRef, push, set, get, remove } from 'firebase/database';
+import { ref as databaseRef, push, set } from 'firebase/database';
 import { db, storage } from "./libs/firebase/firebaseConfig";
 
 
@@ -37,6 +37,7 @@ async function uploadNewProduct() {
     const uploadResult = await uploadBytes(imageRef, file);
     const urlPath = await getDownloadURL(imageRef)
     const imagePath = uploadResult.metadata.fullPath;
+
 
     // firebase unique key
 
