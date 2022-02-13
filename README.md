@@ -1,21 +1,50 @@
-# :writing_hand: Assignment 1
-
+# :writing_hand: **Assignment 1** *(Firebase Dashboard)*
+ :calendar: 13th, February 2022 <br/>
+ :clock11: 11:59pm <br/>
+ :package: <span style="color: red; font-weight:700">20%</span>
 
   - [General Info about project](#general-info)
-  - [Installations](#installations)
+  - [Installation](#installation)
   - [Setup](#setup)
   - [Conclusion](#conclusion)
 
 
-##  :books: General Info
+##  :books: <span style="color:FFF3E0; font-weight:500">General Info</span>
 
-##  :computer: Installations
+This project aims to create an online footwear store for men, women, and children. The name of this store is <span style="color:#EF5350; font-weight:600">*"Shoes EC"*</span>. The structure of the web page consists of three essential elements, the navigation bar, the side bar, and the content of the page. These elements help to make it easier to control the processes performed by the user. The `"Home"`, `"Read"`, `"Write"`, `"Update"`, and `"Delete"` buttons can also be found in the sidebar.<br/>
+In the navigation bar the user can select the donation service, send a private message, or contact the administrator of this website.All data created by the user is stored in the Firebase Real Time Database service.<br/>
+This project is launched on *Netlify* and the repository can be found on the Github link. <br/>
+Good Luck !!!
 
-## :gear: Setup
+##  :computer: <span style="color:78909C; font-weight:500">Installation</span>
+1.  Install all packages/dependencies
+    - Open VSCode command line. View > Terminal
+    - In the command line issue the following terminal command
+```
+  npm install
+```
+2. Run the server
+     - Run the server before can be used
+  ```
+    npm start
+  ```
+3. Access the Server
+   - Click on the link from the terminal (hold "Ctrl + click on the link")
+```
+  Server running at http://localhost:1234
+```
 
-## :pencil: Conclusion
+## :gear: <span style="color:81C784; font-weight:500">Setup</span>
 
+The use of this web page aims to meet all the expectations of our customers. It is extremely easy to control and use.
+In the first compartment in the sidebar is reading data from Firebase. Here our customers can find all the cards or products created by them so far. In this compartment, they have the possibility to edit the product if they want. All fields must be completed. <br/>
+In the next section, our customer can create a product as he wants. All his data will be stored in the Firebase database. Here he will select the desired image, the type of shoes he or she **will** create, the model of the shoe, its price, and finally the description of the product in detail. When they have finished creating this card, the customer must click on the `"add product"` button. From this moment the automatic product is saved in the database, plus it can be read in the `"Read"` compartment. <br/>
+The next option and function of this project is to allow each client to update the product created. They can access this service either from the reading page or from the sidebar. All changes will take place from the moment you click the `"update product"` button. <br/>
+The fourth opportunity offered to our customers is to delete the product created. All deleted cards cannot be recovered, so please use this service with a final decision. Moreover, this page can be accessed as a refresh page, either from the reading page or from the side menu.
 
+## :pencil: <span style="color:CE93D8; font-weight:500">Conclusion</span>
+Finally, we can mention that this project is a successful one. He offers more opportunities to our clients. This product is easy to use, navigate and has a high-quality standard.
+Everything presented here aims to accomplish the mission offered to the <span style="color:#3F51B5; font-weight:700">NAIT</span> higher education institution. All copyrights are legally reserved, and the purpose of this product is to show how we can use the Firebase database.
 
 &nbsp; 
 
@@ -62,7 +91,7 @@
 
 &ensp;
 
-#### Personal icons
+#### *Personal icons*
 :mortar_board:
 :computer:
 :lock_with_ink_pen:

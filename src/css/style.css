@@ -10934,7 +10934,7 @@ a[data-toggle="collapse"] {
     background: #e0c9cb;
     font-family: "Lato", sans-serif, sans-serif;
     text-transform: uppercase;
-    margin: 3rem auto !important;
+    margin: 1.5rem auto !important;
 }
 
 .container {
@@ -11242,4 +11242,10 @@ body #content #show-cards {
     flex-wrap: wrap;
     max-width: 2500px;
     min-width: 555px;
+}
+
+h6 {
+    font-size: 0.8rem;
+    color: tomato !important;
+    font-style: italic !important;
 }
