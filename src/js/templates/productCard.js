@@ -23,7 +23,7 @@ function productCard({ key, urlPath, type, name, message, price }) {
 					<h2>\$${price}</h2>
 					<p class="desc">${message}</p>
 					<div class="buttons">
-						<button id="edit" data-key="${key}" class="add">Edit Product</button>
+						<button id="edit" data-key="${key}" class="add">Update Product</button>
 						<button id="delete" data-key="${key}" class="like">Delete Product</button>
 					</div>
 				</div>
@@ -52,6 +52,5 @@ function onRemoveProduct(e) {
 	sessionStorage.setItem('key', key)
 	window.location.assign('delete.html')
 }
-
 
 export { productCard }
