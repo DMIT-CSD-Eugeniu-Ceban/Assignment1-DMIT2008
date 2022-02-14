@@ -1,11 +1,13 @@
 import { ref as databaseRef, remove, set, get, } from 'firebase/database';
 import { db, storage } from "./libs/firebase/firebaseConfig";
 
-
-function pageInit() {
+async function deleteCard() {
     const key = sessionStorage.getItem('key')
     const path = `products/${key}`
-    console.log(path)
+
+    const dataRef = await databaseRef(db, path)
+    remove(dataRef);
+
 }
 
-pageInit()
+export { deleteCard}

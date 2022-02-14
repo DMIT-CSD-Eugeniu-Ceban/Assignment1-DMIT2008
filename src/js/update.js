@@ -55,7 +55,7 @@ async function updateProductData() {
         imagePath = uploadResult.metadata.fullPath;
         urlPath = await getDownloadURL(imageRef);
     }
-    
+
 
     const dataRef = databaseRef(db, `products/${key}`)
     set(dataRef, {

@@ -1,3 +1,7 @@
+import { ref as databaseRef, remove, set, get, } from 'firebase/database';
+import { db, storage } from "../libs/firebase/firebaseConfig";
+
+
 function productCard({ key, urlPath, type, name, message, price }) {
 	const template = `
         <form id="cardForm" class="container">
@@ -46,11 +50,21 @@ function onEditProduct(e) {
 	window.location.assign('update.html')
 }
 
-function onRemoveProduct(e) {
+async function onRemoveProduct(e) {
 	e.preventDefault();
-	const key = e.target.dataset.key
+	/* const key = e.target.dataset.key
 	sessionStorage.setItem('key', key)
-	window.location.assign('delete.html')
+	window.location.assign('delete.html') */
+	const key = e.currentTarget.dataset.key
+	const path = `products/${key}`
+
+	if (confirm(key)) {
+		const dataRef = await databaseRef(db, path)
+		remove(dataRef);
+	} else {
+		window.location.assign('index.html')
+	}
 }
 
 export { productCard }
+
