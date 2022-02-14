@@ -48,7 +48,7 @@ Everything presented here aims to accomplish the mission offered to the <span st
 
 &nbsp; 
 
-## :label: [![Generic badge](https://img.shields.io/badge/<Assignment1>-<Open>-<COLOR>.svg)](https://shields.io/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/) [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg) [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+## :label: [![Generic badge](https://img.shields.io/badge/<Assignment1>-<Open>-<COLOR>.svg)](https://app.netlify.com/sites/ec-shoes-assessment1-eugeniuceban/overview) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/) [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg) [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 
 [![made-with-html](https://img.shields.io/badge/Made%20with-HTML-1f425f.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
