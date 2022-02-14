@@ -52,15 +52,16 @@ function onEditProduct(e) {
 
 async function onRemoveProduct(e) {
 	e.preventDefault();
-	/* const key = e.target.dataset.key
-	sessionStorage.setItem('key', key)
-	window.location.assign('delete.html') */
 	const key = e.currentTarget.dataset.key
 	const path = `products/${key}`
+	const dataRef = await databaseRef(db, path)
+	const dataSnapshot = await get(dataRef)
+	const data= dataSnapshot.val()
 
-	if (confirm(key)) {
-		const dataRef = await databaseRef(db, path)
+	if (confirm(`Do you really want to delete this product?  "${data.name}"`)) {
 		remove(dataRef);
+		alert("You card was successfully deleted!!!")
+		window.location.reload()
 	} else {
 		window.location.assign('index.html')
 	}

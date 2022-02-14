@@ -16,6 +16,4 @@ async function pageInit() {
     })
 }
 
-
-
 pageInit()

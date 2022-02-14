@@ -3,7 +3,6 @@ import { ref as databaseRef, push, set } from 'firebase/database';
 import { db, storage } from "./libs/firebase/firebaseConfig";
 
 
-
 document.querySelector("#productImage").addEventListener("change", onImageSelected);
 document.forms["cardForm"].addEventListener("submit", onAddProduct);
 
@@ -12,7 +11,6 @@ function onAddProduct(e) {
     e.preventDefault();
     uploadNewProduct();
 }
-
 
 function onImageSelected(e) {
     let file = e.target.files[0];
